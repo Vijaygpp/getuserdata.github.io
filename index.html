@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wearables user registration</title>
+</head>
+<body>
+    <h1>Wearables user registration</h1>
+    <h2>Register yourself</h2>
+    <p>Please fill and submit following form to register.</p>
 
 
 <form>
@@ -42,7 +53,7 @@ form.addEventListener('submit', handleSubmit);
 
 $.ajax({
     type: "POST",
-    url: "https://webhook.site/d77f5b42-8e0c-45be-afb4-8369de3024ee",
+    url: "https://3symvccz6h.execute-api.ap-south-1.amazonaws.com/UserDataStage01",
     data: JSON.stringify(data),
     contentType: "application/json; charset=utf-8",
     dataType: "json",
